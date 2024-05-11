@@ -4,41 +4,20 @@
     margin: 0;
     padding: 0;
 }
-
 header{
-    margin-bottom: 48px;
-    width: 900px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-picture{
-    justify-content: space-between;
-    width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+        margin: auto;
+        flex-wrap: wrap;
 }
 .imagem{
-    max-width: 50%;
-    margin-left: auto;
+    display: inline;
+    height: auto;
+    width: 150px;
+    flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main{
     margin: auto;
     width: 900px;
@@ -54,6 +33,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     color: rgb(58, 0, 112);
+    margin-bottom: 20px;
 }
 
 img.lado {
@@ -69,4 +49,9 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
+}
+
+p{
+    text-align: justify;
+    width: 500px;
 }
